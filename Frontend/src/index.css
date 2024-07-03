@@ -10,3 +10,16 @@ body {
     background-position: center;
 };
 
+/* Custom scrollbar styles */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px; /* Custom width */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #002e91; /* Custom thumb color */
+  border-radius: 10px; /* Add border radius */
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background-color: #374151; /* Custom track color */
+}
