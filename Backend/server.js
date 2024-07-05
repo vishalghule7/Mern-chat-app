@@ -14,6 +14,8 @@ import { app, server } from "./socket/socket.js";
 
 const PORT = process.env.PORT || 5000;
 
+const __dirname = path.resolve();
+
 config();
 
 app.use(express.json());//to parse the incominh req with json payload (from req.body)
@@ -23,9 +25,11 @@ app.use("/api/auth",authRoutes);
 app.use("/api/message", messageRoutes);
 app.use("/api/users", userRoutes);
 
-// app.get("/", (req , res) => {
-//     res.send("helo");
-// });
+app.use(express.static(path.join(__dirname,"/Frontend/dist")))
+
+app.get("*" , (req, res) => {
+    res.sendFile(path.join(__dirname, "Frontend", "dist", "index.html"));
+});
 
 
 server.listen(PORT, () => {
