@@ -11,6 +11,7 @@
           "scrollbar-width"
         ]
       }
-    ]
+    ],
+    "detect-css-reflows/composite": "off"
   }
 }
