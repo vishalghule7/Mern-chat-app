@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { GenderCheckBox } from './GenderCheckBox'
 import { Link } from 'react-router-dom'
 import useSignup from '../../hooks/useSignup';
+import {GenderCheckBox} from './GenderCheckBox';
 
 
 const SignUp = () => {
@@ -83,8 +83,7 @@ const SignUp = () => {
 							onChange={(e) => setInputs({ ...inputs, confirmPassword: e.target.value })}
 						/>
 					</div>
-
-					<GenderCheckbox onCheckboxChange={handleCheckboxChange} selectedGender={inputs.gender} />
+					<GenderCheckBox onCheckboxChange={handleCheckboxChange} selectedGender={inputs.gender}/>
 
 					<Link
 						to={"/login"}

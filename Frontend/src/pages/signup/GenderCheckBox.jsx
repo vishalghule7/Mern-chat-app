@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const GenderCheckBox = ({onCheckboxChange,selectedGender}) => {
+ const GenderCheckBox = ({onCheckboxChange,selectedGender}) => {
   return (
     <div className='flex mt-2'>
             <div className="form-control mr-4">
@@ -25,3 +25,5 @@ export const GenderCheckBox = ({onCheckboxChange,selectedGender}) => {
     </div>
   )
 }
+
+export default GenderCheckBox;
