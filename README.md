@@ -2,6 +2,12 @@
 
 ChatApp is a real-time messaging application built using the MERN stack, Socket.io, TailwindCSS, and Daisy UI.
 
+#Demo 
+For Demo visit- https://mern-chat-app-ipp2.onrender.com/
+you can use these credentails for demo to see both accound get real time chat ,along with your account :
+username- vg 
+password-12345 
+
 ## Features
 
 - 🌟 **Tech stack:** MERN + Socket.io + TailwindCSS + Daisy UI
