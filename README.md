@@ -6,11 +6,11 @@ ChatApp is a real-time messaging application built using the MERN stack, Socket.
 
 For Demo visit- https://mern-chat-app-ipp2.onrender.com/
 
-you can use these credentails for demo to see both accound get real time chat ,along with your account :
+You can use below credentails for demo, you can signup to see real time chat functionality :
 
-username- vg 
+username- riya1
 
-password-12345 
+password-123456 
 
 ## Features
 
