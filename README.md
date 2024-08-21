@@ -8,9 +8,9 @@ For Demo visit- https://mern-chat-app-ipp2.onrender.com/
 
 You can use below credentails for demo, you can signup to see real time chat functionality :
 
-username- riya1
+username- vg
 
-password-123456 
+password-12345
 
 ## Features
 
